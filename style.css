@@ -227,6 +227,11 @@ p[data-width="wide"] {
 }
 
 @media (max-width: 47em) {
+  .primary-header[data-overlay] {
+    position: relative;
+    z-index: 999;
+  }
+
   .primary-navigation {
     display: none;
 
